@@ -71,6 +71,7 @@ void reading_uart_computer() {
       write(serial_port, total_string.c_str(), total_string.length());
   }
 close(serial_port);
+}
 
 
   
